@@ -52,6 +52,7 @@ student.totalCourses = function() {
   return this.courses.length;
 };
 
+// Part 6:
 student.addCourse("Computer Science");
 
 console.log("\nPart 5:");
