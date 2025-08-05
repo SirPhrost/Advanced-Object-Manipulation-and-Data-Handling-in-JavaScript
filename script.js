@@ -23,7 +23,7 @@ console.log("JSON String:", studentJSON);
 const newStudent = JSON.parse(studentJSON);
 console.log("Parsed Object:", newStudent);
 
-
+// Part 3:
 console.log("\nPart 3:");
 const { name, courses } = student;
 console.log("Destructured Name:", name);
