@@ -43,7 +43,7 @@ const newCourses = ["Art", "PE"];
 const mergedCourses = [...student.courses, ...newCourses];
 console.log("Merged Courses:", mergedCourses);
 
-
+// Part 5:
 student.addCourse = function(newCourse) {
   this.courses.push(newCourse);
 };
