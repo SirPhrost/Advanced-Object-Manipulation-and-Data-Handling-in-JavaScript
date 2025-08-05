@@ -52,14 +52,13 @@ student.totalCourses = function() {
   return this.courses.length;
 };
 
-// Part 6:
 student.addCourse("Computer Science");
 
 console.log("\nPart 5:");
 console.log("Courses after adding one:", student.courses);
 console.log("Total number of courses:", student.totalCourses());
 
-
+// Bonus:
 console.log("\nBonus Task:");
 const averageScore = scores.reduce((sum, val) => sum + val, 0) / scores.length;
 console.log("Average Score:", averageScore.toFixed(2));
