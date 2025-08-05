@@ -1,4 +1,4 @@
-
+// PART 1:
 const student = {
   name: "Shacquile",
   age: 21,
