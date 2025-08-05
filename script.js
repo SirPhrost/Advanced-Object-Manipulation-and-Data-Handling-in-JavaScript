@@ -14,6 +14,7 @@ console.log("Name:", student.name);
 console.log("Age:", student.age);
 console.log("Student Info:", student.displayInfo());
 
+//Part 2:
 
 console.log("\nPart 2:");
 const studentJSON = JSON.stringify(student);
